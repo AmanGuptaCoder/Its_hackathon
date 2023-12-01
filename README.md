@@ -1,4 +1,4 @@
-# Happy 1st Anniversary, MedGen AI! 🎉
+# MedGen AI! 
 
 ## MedGen AI - Empowering Medical Professionals through Generative AI
 
