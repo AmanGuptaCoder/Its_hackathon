@@ -1,66 +1,108 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Happy 1st Anniversary, MedGen AI! 🎉
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## MedGen AI - Empowering Medical Professionals through Generative AI
 
-## About Laravel
+![MedGen AI Logo](./logo.png)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### [Visit Deployed Site Here](https://its.teamcode.tech/)  
+**UserID:** user@gmail.com  
+**Password:** user@gmail.com  
+**AdminID:** admin@gmail.com  
+**Password:** admin@gmail.com
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Problem it Solves
+- Symptom checker with 2d Avatar and conversation
+- Query with MEdical documents and make it faster
+- Essential summaries and assistance through Generative AI Chatbots.
+- Efficient medical education planning and curriculum preparation with detailed nuances.
+- Empowering publishing and creator space for medical content generation for blogs, videos with copyright-free assets.
 
-## Learning Laravel
+### AI Features of MedGen AI
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Summarization, PDF chat with Langchain, Curated guides from Generative AI.
+- Create templates and generate content from fine-tuned LLMs for specific medical domains.
+- Transcript generation for medical videos with maximum accuracy.
+- Speech Synthesis with human tones.
+- Royalty-free high-quality image generation with positive and negative prompting.
+- User profile creation with subscription plans.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Basic Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Book appointments, access medical resources, and explore various healthcare services.
+- Explore various categories of medical facilities and healthcare professionals.
+- Search and get curated results based on ratings, price aggregators.
+- Apply various filters to get the desired medical services.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### PoC UI - MedGen AI Web App
 
-### Premium Partners
+![UI Sample 1](./1.png)
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Technology Used
 
-## Contributing
+- React, JavaScript
+- HTML, CSS, Bootstrap
+- PHP, Laravel Blade
+- MySQL, Firebase
+- Azure Voice, Whisper
+- SST TTS, GCP
+- Gradio LLM Llama 7B
+- Stable Diffusion DALL-E
+- Hugging Face API
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## Challenges We Faced
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Engaging UI design for MedGen AI.
+- Integration of fine-tuned custom LLM models.
+- Prompt engineering to control responses.
+- Integrating multimodal features into one platform.
+- Database design to handle all medical assets.
+- Providing enterprise features for shared workspace.
+- Gathering data for medical categories like hospitals, clinics, specialties, etc.
+- Building a database for coordinates (latitude and longitude) of medical facilities.
+- Fetching medical reviews and ratings.
+- Planning searching parameters.
+- Integrating multiple 3rd-party services like maps, booking sites.
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Proposed Enhancements
 
-## License
+- Create a pipeline between vendors and MedGen AI.
+- Integrate appointment booking features.
+- Implement live in-app medical events.
+- Support for connecting chains of healthcare institutions.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## Installation of Project
+
+### Prerequisites
+
+- PHP v8.1, PHP Mbstring Extension, PHP PDO Extension, PHP FileInfo Extension, PHP JSON Extension, PHP CURL Extension, PHP ZipArchive Extension, PHP symlink() function, PHP shell_exec() function, PHP file_get_contents() function.
+
+### Setup
+
+- Set up Wamp or Xampp Server for Windows, LAMP Server for Linux, or MAMP for Mac.
+- Zip and upload the contents of the GitHub project to the root directory of your hosting server.
+- Create a MySQL database and a user for access.
+- Open .env.example, add necessary details, and rename it to .env.
+- Import .sql content into phpMyAdmin.
+
+Boom! Now you can access your MedGen AI with credentials user@gmail.com and user@gmail.com.
+
+---
+
+### Contributors
+
+- Aman Gupta
+- Shashank Kumar
+- Prarthana Agrawal
+
+Built with ❤️ by Team C.O.D.E at Code-O-Fiesta 2.0 | ITS Engineering College
